@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    margin: 0.3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.p3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    margin-top: 0.62rem;
+    font-weight: bold;
+}
+
+.input {
+    padding: 0.62rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.buton-trimitere {
+    background-color: #34dac9;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buton-trimitere:hover {
+    background-color: #34dac9;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+    margin: auto;
+}
+
+.navbar ul li {
+    margin: 0 0.5rem;
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li a {
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+    color: #34dac9;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #34dac9;
+    left: 0;
+    bottom: -5px;
+    position: absolute;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+.footer {
+    padding: 0.5rem;
+}
+
+.svg {
+    width: 3rem;
+    height: 3rem;
+    border: 0.25rem solid #34dac9;
+    border-radius: 1rem;
+    padding: 0.2rem;
+    fill:#34dac9; /* nu se pune culoarea pe svg, de ce ? */
+}
